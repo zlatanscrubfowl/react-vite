@@ -1,0 +1,54 @@
+/* Taxonomy Tree Styles */
+.taxonomy-tree {
+    width: 100%;
+    overflow: auto;
+}
+
+.taxonomy-tree .node circle {
+    cursor: pointer;
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.taxonomy-tree .node text {
+    font-size: 12px;
+}
+
+.taxonomy-tree path.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2.0px;
+}
+
+.taxonomy-tree rect {
+    fill: none;
+    pointer-events: all;
+}
+
+.taxonomy-tree pre {
+    font-size: 18px;
+}
+
+.taxonomy-tree .string, 
+.taxonomy-tree .regexp {
+    color: #f39;
+}
+
+.taxonomy-tree .keyword {
+    color: #00c;
+}
+
+.taxonomy-tree .comment {
+    color: #777;
+    font-style: oblique;
+}
+
+.taxonomy-tree .number {
+    color: #369;
+}
+
+.taxonomy-tree .class, 
+.taxonomy-tree .special {
+    color: #1181B8;
+} 

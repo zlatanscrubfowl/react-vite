@@ -1,0 +1,92 @@
+   /* index.css */
+      /* index.css */
+      @import 'leaflet/dist/leaflet.css';
+      @import 'leaflet.markercluster/dist/MarkerCluster.css';
+      @import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+      #root {
+        /* max-width: 1280px; */
+        /* margin: 0 auto;
+        padding: 2rem;
+        text-align: center; */
+        width: 100%;
+        left: 0;
+        right: 0;
+        position: absolute;
+        overflow-x: hidden;
+      }
+   .content {
+    margin-top: 100px; /* Sesuaikan dengan tinggi header */
+    padding: 20px;
+  }
+
+  .observations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .observations div {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.fixed-header {
+  background-color: #f0f0f0;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 5px solid #679995;
+  z-index: 1000;
+}
+
+
+.view-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  position: absolute;
+  top: 130px;
+  right: 10px;
+  z-index: 500;
+}
+
+.view-icons button {
+  background-color: #679995;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.view-icons button:hover {
+  background-color: #567d7d;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Tambahkan di file CSS global */
+.ql-editor {
+  min-height: 100px;
+}
+
+.ql-container {
+  background: white;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
